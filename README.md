@@ -3,7 +3,7 @@
 This was a playground/learning opportunity for me to experiment with the Python Django library to build a site with working web app.
 I made a web app capable of allowing the user to draw images in the drawing box with their mouse. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/xQUWrL0xuUM)
 
 # Web Pages
 
@@ -11,16 +11,16 @@ In order to access this drawing page, you must enter in the correct extension of
 
 # Development Environment
 
-Django 4.1.7
-Python 3.11.1
-VS Code
-Google Chrome
+* Django 4.1.7
+* Python 3.11.1
+* VS Code
+* Google Chrome
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 * [Django Documentation](http://doc.djangoproject.com)
-* [W3 School Django](https://www.w3schools.com/django/)
+* [W3 Schools Django](https://www.w3schools.com/django/)
 
 # Future Work
 

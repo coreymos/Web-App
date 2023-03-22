@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drawing App</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <canvas id="canvas" width="500" height="500" style="border: 1px solid black;"></canvas>
+
+    <script>
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        var drawing = false;
+
+        $(canvas).mousedown(function (e) {
+            drawing = true;
+            ctx.beginPath();
+            ctx.moveTo(e.pageX - canvas.offsetLeft, e.pageY - canvas.offsetTop);
+        });
+
+        $(canvas).mousemove(function (e) {
+            if (drawing) {
+                ctx.lineTo(e.pageX - canvas.offsetLeft, e.pageY - canvas.offsetTop);
+                ctx.stroke();
+            }
+        });
+
+        $(canvas).mouseup(function () {
+            drawing = false;
+        });
+
+        $(canvas).mouseleave(function () {
+            drawing = false;
+        });
+    </script>
+</body>
+
+</html>

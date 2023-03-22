@@ -1,34 +1,29 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
+This was a playground/learning opportunity for me to experiment with the Python Django library to build a site with working web app.
+I made a web app capable of allowing the user to draw images in the drawing box with their mouse. 
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+In order to access this drawing page, you must enter in the correct extension of /drawing/
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+Django 4.1.7
+Python 3.11.1
+VS Code
+Google Chrome
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Django Documentation](http://doc.djangoproject.com)
+* [W3 School Django](https://www.w3schools.com/django/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add a directory page to get you to the drawing app from the main page
+* Add more colors to the drawing app
+* Make the drawing app more appealing on the screen
